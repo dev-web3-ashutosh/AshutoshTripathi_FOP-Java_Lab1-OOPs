@@ -1,5 +1,20 @@
 package com.ashutosh.service;
 
-public class CredentialService {
+import java.util.Random;
 
+public class CredentialService {
+	public char[] generatePassword() {
+		char[] pwd=new char[8]; //pwd is character array of length 8
+		Random rand=new Random(); //'rand' is an object of the Random class
+		String capitalLetters="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		String smallLetters=capitalLetters.toLowerCase();
+		String numbers="0123456789";
+		String specialCharacters="!@#$%^&*()_=+-/?<>";
+		String values=capitalLetters+smallLetters+numbers+specialCharacters;
+		for(int i=0;i<8;i++) {
+			pwd[i]=values.charAt(rand.nextInt(values.length()));
+		}
+		return pwd;
+	}
+	
 }
