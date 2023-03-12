@@ -6,5 +6,8 @@ public class Employee {
 		this.firstName=firstName;
 		this.lastName=lastName;
 	}
+	public String getFirstName() {
+		return firstName;
+	}
 	
 }
