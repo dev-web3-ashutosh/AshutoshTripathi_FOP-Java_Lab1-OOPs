@@ -1,9 +1,9 @@
-package com.glearning.emailgenerator.main;
+package com.glearning.emailgenerator.client;
 
 import java.util.Scanner;
 
-import com.ashutosh.model.Employee;
-import com.ashutosh.service.CredentialService;
+import com.glearning.emailgenerator.model.Employee;
+import com.glearning.emailgenerator.service.CredentialService;
 
 public class Driver {
 

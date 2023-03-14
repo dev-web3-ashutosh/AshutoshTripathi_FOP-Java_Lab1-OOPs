@@ -1,4 +1,4 @@
-package com.ashutosh.service;
+package com.glearning.emailgenerator.service;
 
 import java.util.Random;
 

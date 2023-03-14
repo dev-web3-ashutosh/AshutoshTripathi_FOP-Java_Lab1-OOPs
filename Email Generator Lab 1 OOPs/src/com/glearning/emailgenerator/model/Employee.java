@@ -1,4 +1,4 @@
-package com.ashutosh.model;
+package com.glearning.emailgenerator.model;
 
 public class Employee {
 	private String firstName, lastName;
