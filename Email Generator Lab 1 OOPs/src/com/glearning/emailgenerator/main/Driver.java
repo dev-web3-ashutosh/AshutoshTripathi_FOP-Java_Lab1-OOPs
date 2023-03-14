@@ -1,4 +1,4 @@
-package com.ashutosh.main;
+package com.glearning.emailgenerator.main;
 
 import java.util.Scanner;
 
