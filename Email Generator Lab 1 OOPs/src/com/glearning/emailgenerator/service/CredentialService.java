@@ -3,6 +3,7 @@ package com.glearning.emailgenerator.service;
 import java.util.Random;
 
 public class CredentialService {
+	
 	public char[] generatePassword() {
 		char[] pwd=new char[8]; //'pwd' is character array of length 8
 		Random rand=new Random(); //'rand' is an object of the Random class
@@ -16,10 +17,12 @@ public class CredentialService {
 		}
 		return pwd;
 	}
+	
 	public String generateEmailAddress(String firstName, String lastName, String department) {
 		String email=firstName.toLowerCase()+lastName.toLowerCase()+"@"+department+".google.com";
 		return email;
 	}
+	
 	public void showCredentials(String name, String email, char[] password) {
 		System.out.println("Dear "+name+" your generated credentials are as follows");
 		System.out.println("Email    --> "+email);
