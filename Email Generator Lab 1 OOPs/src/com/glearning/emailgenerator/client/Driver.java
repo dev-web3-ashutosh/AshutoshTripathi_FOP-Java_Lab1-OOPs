@@ -1,7 +1,6 @@
 package com.glearning.emailgenerator.client;
 
 import java.util.Scanner;
-
 import com.glearning.emailgenerator.model.Employee;
 import com.glearning.emailgenerator.service.CredentialService;
 
