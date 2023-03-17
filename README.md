@@ -1,4 +1,3 @@
-# AshutoshTripathi_FOP-Java_Lab1-OOPs
 You are an IT Support Administrator and are charged with the task of creating credentials for new hires
 
 Your application should do the following:
